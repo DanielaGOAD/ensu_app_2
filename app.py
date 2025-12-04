@@ -189,7 +189,7 @@ mapeo_ciudades = {
 def cargar_datos_base():
     file_ids = [
         "1VLMGozkGzj1eETDBAMQU296P2Z4r1wpY",  # archivo original
-        "1HNsqcTWmUMCgRizxOnJbctKfFPEotTWs"
+        "1HNsqcTWmUMCgRizxOnJbctKfFPEotTWs"               # 🔁 ¡REEMPLAZA ESTO con el ID del nuevo CSV!
     ]
 
     columnas_necesarias = (
@@ -347,7 +347,7 @@ def calcular_porcentaje(df, col, tipo):
             df_val["PESO_SI"] = (df_val[col] == 2) * df_val["FAC_SEL"]
         elif tipo == "Cambio de hábitos":
             df_val["PESO_SI"] = (df_val[col] == 1) * df_val["FAC_SEL"]
-        elif tipo in ["Efectividad de autoridades (2024–2025)", "Efectividad de autoridades (2021–2023)", "Efectividad del gobierno para resolver problemas"]:
+        elif tipo in ["Efectividad de autoridades (2024 en delante)", "Efectividad de autoridades (2021–2023)", "Efectividad del gobierno para resolver problemas"]:
             df_val["PESO_SI"] = df_val[col].isin([1, 2]) * df_val["FAC_SEL"]
         elif tipo == "Expectativas sobre delincuencia":
             df_val["PESO_IGUAL"] = (df_val[col] == 3) * df_val["FAC_SEL"]
