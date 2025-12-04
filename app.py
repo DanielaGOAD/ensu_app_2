@@ -189,44 +189,8 @@ mapeo_ciudades = {
 
 # --- Mapeo de períodos a file_id en Google Drive ---
 archivos_drive = {
-    "2016_T1": "1ghdDbt50Pvko3DT_3FF8RmvUYj0HO2Ga",
-    "2016_T2": "1c8ADcug1cmvbf2a3Uo3nPHG72YR2rMA_",
-    "2016_T3": "1wUvvqZS5ST3DKjyzDAgLo-kLTIs-Rhjc",
-    "2016_T4": "1_2sUZ-Y7VrefPhIlO24tklfO73cNELsf",
-    "2017_T1": "1DqrMJO2ek3NJshIOlEv1vqzN-QC6FZHL",
-    "2017_T2": "1Zt6gymHT3_dxdPJhmrGYFCE5VLthOZTX",
-    "2017_T3": "1fVFFBYu57HXUSmGYitWECi7xb9zegAi_",
-    "2017_T4": "1WNosoki7PSIxxpsfONnZQbBEoKeSmq19",
-    "2018_T1": "1UpzcczGkkTzLxN5JKjO4X97jGpZCE4D1",
-    "2018_T2": "10Av2wUzqz_GGdrECxtz0lnojlA4uF6U2",
-    "2018_T3": "1QtoYFnQmYMexZaoq2vYTIThp0umm30mB",
-    "2018_T4": "1jvMqOhAlG3G7JWnNC-GuqqM_OtYe58-V",
-    "2019_T1": "1Hj0y9ZHDCH2e3BZFrWJewiYWqYP8ZA5B",
-    "2019_T2": "1KT72-sjz98LRF_S3VvhAb9MyRbJ9xMP1",
-    "2019_T3": "1yUIGA-hDxjVsv50kCi4DD-tWVPCp2MrH",
-    "2019_T4": "1gA0rst5Qnq-3C3Da4M3QNzvZPtvLVPVt",
-    "2020_T1": "1jS53aQSqSXHo72C1miqZUA3vLOSNTLQ1",
-    "2020_T3": "1oW1R7Q5oLcT42zdp7I4GYEbR_DNqpaYH",
-    "2020_T4": "1W_k-NUDdnhg-trNk4EHho4wNzjQx1UPB",
-    "2021_T2": "10sPNBuddD1mf1mgVL4gs-t24wH5es4bn",
-    "2021_T3": "10U-V5FSPJuvxMnT_j2sBG4ezWevyfzVh",
-    "2021_T4": "1VDDUXhgw-7qHUBmIHKHbe1Xnxv86JQ94",
-    "2022_T1": "1Veij1F7jXypmQMXVKTn963rHqTQTJJe8",
-    "2022_T2": "1avcNBKptqOLuvWNli2ekj0vUikLc-6qF",
-    "2022_T3": "1UkMKlUhPSK40DT8jWxIqcrZTAjxEOGSk",
-    "2022_T4": "1wAM-vuicvApAfV3KkcnPGHDWSbCo1TzM",
-    "2023_T1": "123CkeuU4qulPFzcCif_APTOMeYCxV5_j",
-    "2023_T2": "1sCzkxX4cAkhzD931fNotXD0nD1XbEA-_",
-    "2023_T3": "1hwI23DowY3wezM9gVUenUV0yJcy_e-QN",
-    "2023_T4": "1dWAQLqfpQMP98hXCk4o1gTw6sz8d0Ax0",
-    "2024_T1": "1U2G5uRYd6PWlCza1WffM5Ei69WfciU-I",
-    "2024_T2": "1F4Ja5nLH7b3a4vYUlYv7uLt0lXLNnMwr",
-    "2024_T3": "1gjdrI1Ndkuk-H9-JnovtHQ1aEdsiwKlN",
-    "2024_T4": "1Kg16Rey0vFNbG0iEYGMlbOypq6kx-Q7u",
-    "2025_T1": "1qxpr0MSCuWK2E6LnCyN9U3sb1hs00m2z",
-    "2025_T2": "1f4RqCyISoyMj5ODyv2dzOOJlORP86Bnh",
-    "2025_T3": "18PxgXnMNrCdh8ISV5AHc3u-CF5-9ESNp",
-    "2025_T4": "1HNsqcTWmUMCgRizxOnJbctKfFPEotTWs"
+    "2016_T1-2025_T3": "1VLMGozkGzj1eETDBAMQU296P2Z4r1wpY",
+    "2025_T4" : "18PxgXnMNrCdh8ISV5AHc3u-CF5-9ESNp"
 }
 
 # --- Definir columnas y tipos ---
