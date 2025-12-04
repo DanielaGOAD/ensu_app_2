@@ -189,7 +189,7 @@ mapeo_ciudades = {
 def cargar_datos_base():
     file_ids = [
         "1VLMGozkGzj1eETDBAMQU296P2Z4r1wpY",  # archivo original
-        "1HNsqcTWmUMCgRizxOnJbctKfFPEotTWs"               # 🔁 ¡REEMPLAZA ESTO con el ID del nuevo CSV!
+        "1HNsqcTWmUMCgRizxOnJbctKfFPEotTWs"
     ]
 
     columnas_necesarias = (
@@ -263,7 +263,7 @@ tipo_variable = st.radio(
     [
         "Percepción de inseguridad",
         "Cambio de hábitos",
-        "Efectividad de autoridades (2024–2025)",
+        "Efectividad de autoridades (2024 en delante)",
         "Efectividad de autoridades (2021–2023)",
         "Expectativas sobre delincuencia",
         "Efectividad del gobierno para resolver problemas",
@@ -277,7 +277,7 @@ if tipo_variable == "Percepción de inseguridad":
     opciones = percepcion_lugares
 elif tipo_variable == "Cambio de hábitos":
     opciones = cambios_habitos
-elif tipo_variable == "Efectividad de autoridades (2024–2025)":
+elif tipo_variable == "Efectividad de autoridades (2024 en delante)":
     opciones = efectividad_autoridades_2024_2025
 elif tipo_variable == "Efectividad de autoridades (2021–2023)":
     opciones = efectividad_autoridades_2021_2023
@@ -304,8 +304,8 @@ df_filtrado = df.copy()
 if ciudad_sel != "Estados Unidos Mexicanos":
     df_filtrado = df_filtrado[df_filtrado["NOMBRE_CIUDAD"] == ciudad_sel]
 
-if tipo_variable == "Efectividad de autoridades (2024–2025)":
-    df_filtrado = df_filtrado[df_filtrado["ANIO"].isin([2024, 2025])]
+if tipo_variable == "Efectividad de autoridades (2024 en delante)":
+    df_filtrado = df_filtrado[df_filtrado["ANIO"].isin([2024, 2025, 2026, 2027, 2028, 2029, 2030])]
 elif tipo_variable == "Efectividad de autoridades (2021–2023)":
     df_filtrado = df_filtrado[df_filtrado["ANIO"].between(2021, 2023)]
 
